@@ -1,0 +1,27 @@
+# Never commit secrets or raw exports
+*.key
+*.pem
+*.p12
+*.pfx
+*.kdbx
+*.env
+.env*
+secrets/
+**/raw-exports/
+
+# OPNsense / Proxmox config backups (redact before adding manually)
+config-*.xml
+*.vma
+*.vma.zst
+*.tar.zst
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+
+# Docs website build output
+site/
+.site-src/

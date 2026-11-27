@@ -1,0 +1,9 @@
+// Cloudflare Worker that serves the docs website (built into site/ by scripts/build-site.sh).
+{
+  "name": "homelab",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    "directory": "./site",
+    "not_found_handling": "404-page"
+  }
+}
